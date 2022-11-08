@@ -94,3 +94,29 @@ E/( 1553):   at widget.List.makeView(ListView.java:1727) => **makeView**|**ListV
 "https://regexone.com/lesson/introduction#section" => **https**|**regexone.com**
 file://localhost:4040/zip_file => **file**|**localhost**|**4040**
 Loi giai (\w+)://([\w\-\.]+)(:(\d+))? 
+
+
+i => Khong phan biet chu hoa chu thuong 
+g => Tim toan bo ket qua 
+m ==> Xu ly nhieu dong 
+[] => Mo ta mot tap hop ca ky tu 
+[^ ] => Phu dinh cua []
+\w => [a-zA-Z0-9_]
+\W => [^a-zA-Z0-9_]
+\d => [0-9]
+\D => [^0-9]
+\s => [\t\f\n\r\p{Z}] 
+\S => [^\t\f\n\r\p{Z}]
+\b => Phan tach cac tu 
+\B => Khong phan tach cac tu
+[*] => Null hoac nhieu lan 
+[+] => Mot hoac nhieu lan 
+[?] => Co hay khong deu duoc
+?! => Lookahead
+{min,max} => Do dai
+(abc) => SO khop chuoi gorup ky tu 
+| phep hoac 
+\ Lay ky tu dac biet 
+^ Dau chuoi 
+$ Cuoi chuoi 
+\z Diem ket thuc chuoi input 
